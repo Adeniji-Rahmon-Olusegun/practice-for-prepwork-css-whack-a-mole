@@ -1,9 +1,44 @@
 /* Your code here */
+body {
+  zoom: 0.6;
+}
 
+.pf {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
+  gap: 10px;
+}
+
+.wgs {
+  display: inline-block;
+  width: 640px;
+  height: 482px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wgs__mole-head {
+  width: 376px;
+  height: 356px;
+  position: absolute;
+  left: 109px;
+}
+
+.wgs__mole-hill {
+  width: 640px;
+  height: 220px;
+  position: absolute;
+  bottom: 0px; 
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 482px;
+}
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -12,17 +47,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+}
 
-/* .sb__score-holder {
+.sb__score-holder {
   flex: 1 0 0;
-} */
+} 
 
-/* .sb__game-over--hidden {
+.sb__game-over--hidden {
   display: none;
-} */
+}
